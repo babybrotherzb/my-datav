@@ -1,0 +1,43 @@
+{
+  "name": "my-datav",
+  "version": "0.1.0",
+  "private": true,
+  "author": "@baby张 <babybrotherzb@gmail.com>",
+  "address": "https://github.com/babybrotherzb",
+  "csdn": "https://blog.csdn.net/weixin_43648947",
+  "dependencies": {
+    "@jiaminghi/data-view-react": "^1.1.7",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "echarts": "^4.8.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "dev":"npm run start",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.3"
+  }
+}
